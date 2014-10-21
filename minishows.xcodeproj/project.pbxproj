@@ -14,6 +14,7 @@
 		3E8352F519F6C04C005A349F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8352F419F6C04C005A349F /* Images.xcassets */; };
 		3E8352F819F6C04C005A349F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8352F619F6C04C005A349F /* LaunchScreen.xib */; };
 		3E83530419F6C04C005A349F /* minishowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83530319F6C04C005A349F /* minishowsTests.m */; };
+		3E83531219F6C1BB005A349F /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83531119F6C1BB005A349F /* Show.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3E8352FD19F6C04C005A349F /* minishowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minishowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E83530219F6C04C005A349F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E83530319F6C04C005A349F /* minishowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minishowsTests.m; sourceTree = "<group>"; };
+		3E83531019F6C1BB005A349F /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
+		3E83531119F6C1BB005A349F /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +86,10 @@
 			children = (
 				3E8352EB19F6C04C005A349F /* AppDelegate.h */,
 				3E8352EC19F6C04C005A349F /* AppDelegate.m */,
-				3E8352EE19F6C04C005A349F /* ViewController.h */,
-				3E8352EF19F6C04C005A349F /* ViewController.m */,
-				3E8352F119F6C04C005A349F /* Main.storyboard */,
+				3E83530E19F6C18C005A349F /* Model */,
+				3E83530F19F6C193005A349F /* Controller */,
+				3E83530D19F6C180005A349F /* View */,
 				3E8352F419F6C04C005A349F /* Images.xcassets */,
-				3E8352F619F6C04C005A349F /* LaunchScreen.xib */,
 				3E8352E719F6C04C005A349F /* Supporting Files */,
 			);
 			path = minishows;
@@ -117,6 +119,33 @@
 				3E83530219F6C04C005A349F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E83530D19F6C180005A349F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E8352F119F6C04C005A349F /* Main.storyboard */,
+				3E8352F619F6C04C005A349F /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3E83530E19F6C18C005A349F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E83531019F6C1BB005A349F /* Show.h */,
+				3E83531119F6C1BB005A349F /* Show.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3E83530F19F6C193005A349F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E8352EE19F6C04C005A349F /* ViewController.h */,
+				3E8352EF19F6C04C005A349F /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +250,7 @@
 			files = (
 				3E8352F019F6C04C005A349F /* ViewController.m in Sources */,
 				3E8352ED19F6C04C005A349F /* AppDelegate.m in Sources */,
+				3E83531219F6C1BB005A349F /* Show.m in Sources */,
 				3E8352EA19F6C04C005A349F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
