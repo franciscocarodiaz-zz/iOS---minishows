@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Games of thrones</string>
+		<key>episode</key>
+		<string>S01E01 - Winter Is Coming</string>
+		<key>generalInfo</key>
+		<string>The first season of the fantasy drama television series Game of Thrones premiered on HBO on April 17, 2011, and concluded on June 19, 2011, airing on Sunday at 9:00 pm in the United States. It consisted of 10 episodes, each running approximately 55 minutes in length. Game of Thrones is based on the novel A Game of Thrones, the first entry in A Song of Ice and Fire series by George R. R. Martin. The story takes place in a fictional world, primarily upon a continent called Westeros (and on another continent to the east known as Essos).[5] The noble House Stark, led by Lord Eddard &quot;Ned&quot; Stark (Sean Bean) is drawn into schemes against King Robert Baratheon when the Hand of the King Jon Arryn (Robert&apos;s chief advisor) dies mysteriously.</string>
+		<key>overview</key>
+		<string>Robert Baratheon, King of the Seven Kingdoms of Westeros, and his wife, Cersei Lannister, travel north to make his old friend Eddard &quot;Ned&quot; Stark – Lord of the North and of the castle Winterfell – an offer he cannot refuse. Across the narrow sea in Essos, the exiled Prince Viserys Targaryen forges a new alliance to regain the Iron Throne; he will trade his sister Daenerys in marriage to the savage Dothraki warlord Khal Drogo in exchange for Drogo&apos;s army. Back in Winterfell, Ned&apos;s 10-year-old son Brandon discovers that Queen Cersei and her brother Jaime are involved in an incestuous relationship, a discovery for which he pays dearly.</string>
+		<key>urlImage</key>
+		<string>http://www.moviepilot.de/files/images/0604/1533/game-of-thrones-poster.jpg</string>
+	</dict>
+</array>
+</plist>
