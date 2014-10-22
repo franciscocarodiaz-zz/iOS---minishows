@@ -10,4 +10,5 @@
 
 @interface ShowDetailsContainerViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *generalInfoLabel;
+@property (weak, nonatomic) IBOutlet UILabel *overviewInfoLabel;
 @end
