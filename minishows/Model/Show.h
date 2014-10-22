@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *episode;
-@property (nonatomic) BOOL watched;
+//@property (nonatomic) BOOL watched;
 @property (nonatomic, strong) NSString *generalInfo;
 @property (nonatomic, strong) NSString *overview;
 @property (nonatomic, strong) NSString *urlImage;
