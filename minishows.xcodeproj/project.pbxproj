@@ -92,12 +92,12 @@
 		3E8352E619F6C04C005A349F /* minishows */ = {
 			isa = PBXGroup;
 			children = (
-				3EAFC72E19F78A4100ED4A5B /* Util */,
 				3E8352EB19F6C04C005A349F /* AppDelegate.h */,
 				3E8352EC19F6C04C005A349F /* AppDelegate.m */,
 				3E83530E19F6C18C005A349F /* Model */,
-				3E83530F19F6C193005A349F /* Controller */,
 				3E83530D19F6C180005A349F /* View */,
+				3E83530F19F6C193005A349F /* Controller */,
+				3EAFC72E19F78A4100ED4A5B /* Util */,
 				3E8352F419F6C04C005A349F /* Images.xcassets */,
 				3E8352E719F6C04C005A349F /* Supporting Files */,
 			);

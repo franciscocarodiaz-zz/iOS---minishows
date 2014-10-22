@@ -34,9 +34,6 @@
     for (NSDictionary *d in userList) {
         Show *s = [[Show alloc] init];
         
-        //NSDictionary *position = [d objectForKey:@"position"];
-        //CGFloat x = [[position objectForKey:@"x"] intValue];
-        //s.position = CGRectMake(x,y, width, height);
         s.name = [d objectForKey:@"name"];
         s.episode  = [d objectForKey:@"episode"];
         s.generalInfo  = [d objectForKey:@"generalInfo"];
