@@ -15,6 +15,9 @@
 		3E8352F819F6C04C005A349F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8352F619F6C04C005A349F /* LaunchScreen.xib */; };
 		3E83530419F6C04C005A349F /* minishowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83530319F6C04C005A349F /* minishowsTests.m */; };
 		3E83531219F6C1BB005A349F /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83531119F6C1BB005A349F /* Show.m */; };
+		3EAFC73419F78A8C00ED4A5B /* UIImage+UrlImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFC73319F78A8C00ED4A5B /* UIImage+UrlImage.m */; };
+		3EAFC73719F78B0900ED4A5B /* Shows.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFC73619F78B0900ED4A5B /* Shows.m */; };
+		3EAFC73919F78DE300ED4A5B /* showList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFC73819F78DE300ED4A5B /* showList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,11 @@
 		3E83530319F6C04C005A349F /* minishowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minishowsTests.m; sourceTree = "<group>"; };
 		3E83531019F6C1BB005A349F /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
 		3E83531119F6C1BB005A349F /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
+		3EAFC73219F78A8C00ED4A5B /* UIImage+UrlImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UrlImage.h"; sourceTree = "<group>"; };
+		3EAFC73319F78A8C00ED4A5B /* UIImage+UrlImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UrlImage.m"; sourceTree = "<group>"; };
+		3EAFC73519F78B0900ED4A5B /* Shows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shows.h; sourceTree = "<group>"; };
+		3EAFC73619F78B0900ED4A5B /* Shows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shows.m; sourceTree = "<group>"; };
+		3EAFC73819F78DE300ED4A5B /* showList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = showList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +95,9 @@
 				3E8352EB19F6C04C005A349F /* AppDelegate.h */,
 				3E8352EC19F6C04C005A349F /* AppDelegate.m */,
 				3E83530E19F6C18C005A349F /* Model */,
-				3E83530F19F6C193005A349F /* Controller */,
 				3E83530D19F6C180005A349F /* View */,
+				3E83530F19F6C193005A349F /* Controller */,
+				3EAFC72E19F78A4100ED4A5B /* Util */,
 				3E8352F419F6C04C005A349F /* Images.xcassets */,
 				3E8352E719F6C04C005A349F /* Supporting Files */,
 			);
@@ -101,7 +110,7 @@
 				3E8352E819F6C04C005A349F /* Info.plist */,
 				3E8352E919F6C04C005A349F /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3E83530019F6C04C005A349F /* minishowsTests */ = {
@@ -118,7 +127,7 @@
 			children = (
 				3E83530219F6C04C005A349F /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3E83530D19F6C180005A349F /* View */ = {
@@ -127,7 +136,7 @@
 				3E8352F119F6C04C005A349F /* Main.storyboard */,
 				3E8352F619F6C04C005A349F /* LaunchScreen.xib */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		3E83530E19F6C18C005A349F /* Model */ = {
@@ -135,8 +144,10 @@
 			children = (
 				3E83531019F6C1BB005A349F /* Show.h */,
 				3E83531119F6C1BB005A349F /* Show.m */,
+				3EAFC73519F78B0900ED4A5B /* Shows.h */,
+				3EAFC73619F78B0900ED4A5B /* Shows.m */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3E83530F19F6C193005A349F /* Controller */ = {
@@ -145,7 +156,17 @@
 				3E8352EE19F6C04C005A349F /* ViewController.h */,
 				3E8352EF19F6C04C005A349F /* ViewController.m */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EAFC72E19F78A4100ED4A5B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3EAFC73819F78DE300ED4A5B /* showList.plist */,
+				3EAFC73219F78A8C00ED4A5B /* UIImage+UrlImage.h */,
+				3EAFC73319F78A8C00ED4A5B /* UIImage+UrlImage.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E8352F319F6C04C005A349F /* Main.storyboard in Resources */,
+				3EAFC73919F78DE300ED4A5B /* showList.plist in Resources */,
 				3E8352F819F6C04C005A349F /* LaunchScreen.xib in Resources */,
 				3E8352F519F6C04C005A349F /* Images.xcassets in Resources */,
 			);
@@ -248,9 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAFC73719F78B0900ED4A5B /* Shows.m in Sources */,
 				3E8352F019F6C04C005A349F /* ViewController.m in Sources */,
 				3E8352ED19F6C04C005A349F /* AppDelegate.m in Sources */,
 				3E83531219F6C1BB005A349F /* Show.m in Sources */,
+				3EAFC73419F78A8C00ED4A5B /* UIImage+UrlImage.m in Sources */,
 				3E8352EA19F6C04C005A349F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = minishows/Info.plist;
+				INFOPLIST_FILE = "minishows/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -383,7 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = minishows/Info.plist;
+				INFOPLIST_FILE = "minishows/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -401,7 +425,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = minishowsTests/Info.plist;
+				INFOPLIST_FILE = "minishowsTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minishows.app/minishows";
@@ -416,7 +440,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = minishowsTests/Info.plist;
+				INFOPLIST_FILE = "minishowsTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minishows.app/minishows";
@@ -442,6 +466,7 @@
 				3E83530919F6C04C005A349F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E83530A19F6C04C005A349F /* Build configuration list for PBXNativeTarget "minishowsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +475,7 @@
 				3E83530C19F6C04C005A349F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
