@@ -8,12 +8,11 @@
 
 #import "ShowDetailsViewController.h"
 #import "Show.h"
+#import "ShowDetailsContainerViewController.h"
 
 @interface ShowDetailsViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *currentShowImage;
-
-@property (weak, nonatomic) IBOutlet UITextView *currentShowInfo;
 
 @property (strong, nonatomic) Show *show;
 
@@ -26,6 +25,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"S01E02 - Winter Is Coming";
+    //NSLog(@"view did load");
+    ShowDetailsContainerViewController *container = [self.childViewControllers lastObject];
+    container.generalInfoLabel.text = @"tessssst";
+    
+    //[self.childViewControllers lastObject]
 }
+
+
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    if ([[segue identifier] isEqualToString:@"infoPanel"]) {
+//        ShowDetailsContainerViewController *vc = [segue destinationViewController];
+//        vc.generalInfoLabel.text = @"test";
+//        NSLog(@"if is true");
+//    }
+//}
 
 @end
